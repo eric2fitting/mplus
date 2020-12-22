@@ -14,7 +14,7 @@ import lombok.Data;
 public class UserTest {
 	private Long id;
 	private String name;
-	private Integer age1;
+	private Integer age2;
 //	public Long getId() {
 //		return id;
 //	}
