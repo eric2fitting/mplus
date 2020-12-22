@@ -15,6 +15,7 @@ public class UserTest {
 	private Long id;
 	private String name;
 	private Integer age;
+	private String hobby;
 	public Long getId() {
 		return id;
 	}
@@ -33,5 +34,4 @@ public class UserTest {
 	public void setAge(Integer age) {
 		this.age = age;
 	}
-	
 }

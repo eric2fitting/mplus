@@ -30,6 +30,12 @@ public class TestController {
 		UserTest user = userTestService.queryById(1L);
 		return user==null ? "null" : user.toString();
 	}
+
+	@RequestMapping("/test3")
+	public String test3() {
+		return "新分支";
+	}
+
 	@RequestMapping("/saveList")
 	public String saveList() {
 		userTestService.saveList();
